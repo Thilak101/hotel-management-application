@@ -1,0 +1,26 @@
+.userList {
+  display: flex;
+  justify-content: center;
+  margin: 10px 20px;
+  /* align-items: center; */
+  flex-direction: column;
+  width: 100vw;
+  height: 100%;
+}
+.userList p {
+  padding: 10px 0;
+}
+
+span {
+  color: red;
+}
+
+.userList button {
+  padding: 5px 10px;
+  margin: 10px 0;
+  width: 90px;
+  border: none;
+  background-color: gray;
+  cursor: pointer;
+  border-radius: 10px;
+}
